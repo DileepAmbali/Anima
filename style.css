@@ -1,0 +1,72 @@
+.svg-animation-container
+{ width: 700px;
+ padding: 54px;
+ margin: auto;
+ height: 500px;
+ background:white;
+
+}
+
+.svg-animation-container svg{
+    width: 100%;
+}
+
+#Vector_3
+{
+    animation: ChangeColor 1s infinite 
+    alternate ;
+}
+
+@keyframes  ChangeColor{
+
+    0%
+    {
+       fill:white;
+    }
+    100%
+    {
+       fill:#f2c013;
+    }
+    
+}
+#Vector_6
+{
+    animation: ChangeColor 1s infinite 
+    alternate ;
+}
+
+@keyframes  ChangeColor{
+
+    0%
+    {
+       fill:white;
+    }
+    100%
+    {
+       fill:#f2c013;
+    }
+    
+}
+
+
+
+
+#straw
+{
+    animation: bounce 1s infinite 
+    alternate ;
+}
+
+@keyframes  bounce{
+
+    0%
+    {
+       transform: translateY(0);
+    }
+    100%
+    {
+      transform: translateY(-20px);
+    }
+    
+}
+
